@@ -1,0 +1,246 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    background-color:#f4f4f4;
+    line-height: 1.5;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+.container{
+    overflow: hidden;
+    margin:auto;
+    width:80%;
+}
+ header{
+    background-color:#ffffff;
+    color:rgb(20, 20, 32);
+    padding-top:30px;
+    min-height: 70px;
+    border-bottom: #e8491d 3px solid;
+}
+header a {
+    text-decoration: none;
+
+    color:#000000;
+    font-size: 16px;
+    font-weight: bold;
+}
+header #branding h1{
+    float:left;
+    font-family:cursive;
+    font-size:25px;
+    /*padding-left:3px;*/
+    color:#000000;
+    
+
+}
+ header li{
+    
+    display:inline;
+    padding: 10px;
+    /*padding-left: 10px;*/
+
+}
+header ul{
+    float:right;
+    margin: 0;
+    padding: 0;
+    
+
+}
+header nav{
+    float:right;
+    margin-top: 20px;
+}
+header a:hover{
+    color:#3908eb;
+    font-weight: bold;
+}
+header .heighlight {
+    color:#3908eb;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+}
+header nav li  .current{
+    color: #e8491d;
+}
+#showcase{
+    min-height: 400px;
+    background:url("./images/websiteback.jpeg");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: #ffffff;
+    
+}
+#showcase h2{
+    font-family: cursive;
+    text-align: center;
+    color: blue;
+    margin-top:100px ;
+    font-size:38px;
+}
+#showcase  p{
+    padding:10px;
+    color:#ffffff;
+    font-size:20px;
+}
+#newsletter{
+    padding: 15px;
+    color:black;
+    background:#ffffff;
+    /*border-top: #e8491d solid 3px;*/
+    border-bottom: #1b0e0b solid 3px;
+}
+#newsletter h1{
+    color: #3908eb;
+    float:left;
+}
+#newsletter form{
+    float: right;
+    margin-top: 15px;
+    
+}
+#newsletter form input[type="email"]{
+    padding: 4px;
+    height:38px;
+    width: 200px;
+    
+    
+}
+.buttn{
+    background-color:#e8491d;
+    padding-left: 15px;
+    padding-right: 15px;
+    height:38px;
+    border: 0;
+
+}
+#boxes{
+    margin-top: 20px;
+}
+#boxes .box{
+    float: left;
+    width:28%;
+    text-align: center;
+    padding: 20px;
+}
+#boxes .box img{
+    width: 90px;
+}
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background:#35424a;
+    padding:20px;
+    color: #ffffff;
+    margin-top: 20px;
+    text-align: center;
+    
+}
+
+.main-cool{
+    float:right;
+    padding: 10px;
+    background-color:#fffff;
+
+}
+.sidebar{
+    padding: 35px;
+    
+}
+.contact{
+    padding: 10px;
+}
+.contact p h1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.whatwe{
+    margin-bottom:300px;
+}
+#services{
+    padding:10px;
+    margin-bottom:300px;
+}
+aside#sidebar{
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+}
+.container #main-col{
+    float: left;
+    width: 65%;
+}
+.dark{
+    background-color: #35424a;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #ffffff;
+    padding: 10px;
+}
+.dark h1{
+    text-align: center;
+    color:#e8491d;
+}
+.quote{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width:50%;
+    padding: 10px;
+    display:block;
+
+}
+.quote input{
+    display: flex;
+    align-items: center;
+    outline: none;
+}
+.quote .buttn{
+    margin-top:5px;
+}
+ul #services{
+    background-color:#e8491d;
+    border: #e8491d solid 3px;
+}
+ ul #services li{
+    columns: #686868;
+    life-style:none;
+    padding: 20px;
+    border: #cccccc solid 3px;
+
+    background-color: #e6e6e6;
+}
+
+@media(max-width:768px){
+      header #branding,header nav,header li , #newsletter h1,#newsletter form,#boxes .box{
+          float:none;
+          text-align:center;
+          width:100%;
+      }
+      header{
+          padding-bottom:20px;
+      }
+      #showcase h1{
+          margin-top: 40px;
+      }
+      #newsletter button{
+          width:100%;
+          display: block;
+      }
+      #newsletter form input[type="email"]{
+          width:100%;
+          display: inline;
+          margin-bottom: 5px;
+      }
+    
+}
+@media(max-width:1440px){
+     footer{
+         margin-top:35%;
+     }
+}
